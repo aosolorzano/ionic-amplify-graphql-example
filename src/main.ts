@@ -1,11 +1,19 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import {enableProdMode} from '@angular/core';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import {AppModule} from './app/app.module';
+import {API} from '@aws-amplify/api';
+import {Amplify} from 'aws-amplify';
+import {environment} from './environments/environment';
+import awsconfig from './aws-exports';
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+Amplify.configure(awsconfig);
+API.configure(awsconfig);
 
 if (environment.production) {
   enableProdMode();
+  Amplify.Logger.LOG_LEVEL = 'INFO';
+} else {
+  Amplify.Logger.LOG_LEVEL = 'DEBUG';
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)

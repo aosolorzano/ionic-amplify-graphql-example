@@ -1,20 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
-
-import { FolderPageRoutingModule } from './folder-routing.module';
-
-import { FolderPage } from './folder.page';
+import { CompaniesPageRoutingModule } from './companies-routing.module';
+import { CompaniesPage } from './companies.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FolderPageRoutingModule
+    CompaniesPageRoutingModule
   ],
-  declarations: [FolderPage]
+  declarations: [CompaniesPage]
 })
-export class FolderPageModule {}
+export class CompaniesPageModule {}

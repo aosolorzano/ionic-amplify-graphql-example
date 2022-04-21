@@ -1,0 +1,163 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateLocation(
+  $input: CreateLocationInput!
+  $condition: ModelLocationConditionInput
+) {
+  createLocation(input: $input, condition: $condition) {
+    id
+    country
+    flagImageUrl
+  }
+}
+mutation UpdateLocation(
+  $input: UpdateLocationInput!
+  $condition: ModelLocationConditionInput
+) {
+  updateLocation(input: $input, condition: $condition) {
+    id
+    country
+    flagImageUrl
+  }
+}
+mutation DeleteLocation(
+  $input: DeleteLocationInput!
+  $condition: ModelLocationConditionInput
+) {
+  deleteLocation(input: $input, condition: $condition) {
+    id
+    country
+    flagImageUrl
+  }
+}
+mutation CreateCompany(
+  $input: CreateCompanyInput!
+  $condition: ModelCompanyConditionInput
+) {
+  createCompany(input: $input, condition: $condition) {
+    id
+    locationId
+    city
+    name
+    industry
+    url
+    location {
+      id
+      country
+      flagImageUrl
+    }
+  }
+}
+mutation UpdateCompany(
+  $input: UpdateCompanyInput!
+  $condition: ModelCompanyConditionInput
+) {
+  updateCompany(input: $input, condition: $condition) {
+    id
+    locationId
+    city
+    name
+    industry
+    url
+    location {
+      id
+      country
+      flagImageUrl
+    }
+  }
+}
+mutation DeleteCompany(
+  $input: DeleteCompanyInput!
+  $condition: ModelCompanyConditionInput
+) {
+  deleteCompany(input: $input, condition: $condition) {
+    id
+    locationId
+    city
+    name
+    industry
+    url
+    location {
+      id
+      country
+      flagImageUrl
+    }
+  }
+}
+mutation CreateOpenPosition(
+  $input: CreateOpenPositionInput!
+  $condition: ModelOpenPositionConditionInput
+) {
+  createOpenPosition(input: $input, condition: $condition) {
+    id
+    companyId
+    title
+    seniority
+    field
+    skills
+    company {
+      id
+      locationId
+      city
+      name
+      industry
+      url
+      location {
+        id
+        country
+        flagImageUrl
+      }
+    }
+  }
+}
+mutation UpdateOpenPosition(
+  $input: UpdateOpenPositionInput!
+  $condition: ModelOpenPositionConditionInput
+) {
+  updateOpenPosition(input: $input, condition: $condition) {
+    id
+    companyId
+    title
+    seniority
+    field
+    skills
+    company {
+      id
+      locationId
+      city
+      name
+      industry
+      url
+      location {
+        id
+        country
+        flagImageUrl
+      }
+    }
+  }
+}
+mutation DeleteOpenPosition(
+  $input: DeleteOpenPositionInput!
+  $condition: ModelOpenPositionConditionInput
+) {
+  deleteOpenPosition(input: $input, condition: $condition) {
+    id
+    companyId
+    title
+    seniority
+    field
+    skills
+    company {
+      id
+      locationId
+      city
+      name
+      industry
+      url
+      location {
+        id
+        country
+        flagImageUrl
+      }
+    }
+  }
+}

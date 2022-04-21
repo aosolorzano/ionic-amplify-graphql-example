@@ -1,0 +1,680 @@
+{
+  "OpenPosition": [
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "JkyvvrrvDF"
+          },
+          "id": {
+            "S": "eaemaaDroa"
+          },
+          "seniority": {
+            "S": "Forward"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:41.533475Z"
+          },
+          "field": {
+            "S": "Real-Estate"
+          },
+          "skills": {
+            "S": "Confidence"
+          },
+          "title": {
+            "S": "Chief Construction Agent"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "DDooJFyaFv"
+          },
+          "id": {
+            "S": "aDFaayyaaD"
+          },
+          "seniority": {
+            "S": "Chief"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:39.707907Z"
+          },
+          "field": {
+            "S": "Accounting"
+          },
+          "skills": {
+            "S": "Fast learner"
+          },
+          "title": {
+            "S": "Manufacturing Coordinator"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "FJvynFDrFF"
+          },
+          "id": {
+            "S": "DvmaJaykJe"
+          },
+          "seniority": {
+            "S": "Human"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:25.823786Z"
+          },
+          "field": {
+            "S": "Accounting"
+          },
+          "skills": {
+            "S": "Fast learner"
+          },
+          "title": {
+            "S": "Hospitality Supervisor"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "aJaonnamFa"
+          },
+          "id": {
+            "S": "FJayDJymea"
+          },
+          "seniority": {
+            "S": "Forward"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:30.401828Z"
+          },
+          "field": {
+            "S": "Government"
+          },
+          "skills": {
+            "S": "Communication"
+          },
+          "title": {
+            "S": "Dynamic Advertising Associate"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "aaJyokmaao"
+          },
+          "id": {
+            "S": "moameaJrvF"
+          },
+          "seniority": {
+            "S": "Forward"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:11.951645Z"
+          },
+          "field": {
+            "S": "Education"
+          },
+          "skills": {
+            "S": "Communication"
+          },
+          "title": {
+            "S": "Farming Consultant"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "neJaDkJJDy"
+          },
+          "id": {
+            "S": "JaDDamyDkJ"
+          },
+          "seniority": {
+            "S": "Direct"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:24.416913Z"
+          },
+          "field": {
+            "S": "Healthcare"
+          },
+          "skills": {
+            "S": "Leadership"
+          },
+          "title": {
+            "S": "District Planner"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "meaJyovJkk"
+          },
+          "id": {
+            "S": "mJFJaomFJJ"
+          },
+          "seniority": {
+            "S": "District"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:44.888724Z"
+          },
+          "field": {
+            "S": "Healthcare"
+          },
+          "skills": {
+            "S": "Communication"
+          },
+          "title": {
+            "S": "Sales Administrator"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "rnaDrorvDF"
+          },
+          "id": {
+            "S": "aFaDamDavk"
+          },
+          "seniority": {
+            "S": "Product"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:28.776220Z"
+          },
+          "field": {
+            "S": "Retail"
+          },
+          "skills": {
+            "S": "Proactive"
+          },
+          "title": {
+            "S": "Central Orchestrator"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "aDynmDavva"
+          },
+          "id": {
+            "S": "nkaarDJJFr"
+          },
+          "seniority": {
+            "S": "Future"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:17.489582Z"
+          },
+          "field": {
+            "S": "Sales"
+          },
+          "skills": {
+            "S": "Problem solving"
+          },
+          "title": {
+            "S": "Internal IT Liaison"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "eeeonaoFDo"
+          },
+          "id": {
+            "S": "araFronvnF"
+          },
+          "seniority": {
+            "S": "Chief"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:54.227640Z"
+          },
+          "field": {
+            "S": "Government"
+          },
+          "skills": {
+            "S": "Organisation"
+          },
+          "title": {
+            "S": "Community-Services Analyst"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "FeaFkDknaD"
+          },
+          "id": {
+            "S": "nvaaDvaayF"
+          },
+          "seniority": {
+            "S": "Dynamic"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:56.056575Z"
+          },
+          "field": {
+            "S": "Marketing"
+          },
+          "skills": {
+            "S": "Organisation"
+          },
+          "title": {
+            "S": "Technology Liaison"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "DrDaayJeJv"
+          },
+          "id": {
+            "S": "raDDnaymoe"
+          },
+          "seniority": {
+            "S": "International"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:39.607273Z"
+          },
+          "field": {
+            "S": "Marketing"
+          },
+          "skills": {
+            "S": "Work under pressure"
+          },
+          "title": {
+            "S": "District Supervisor"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "aaFyJaDaDa"
+          },
+          "id": {
+            "S": "DyaDaaaFyD"
+          },
+          "seniority": {
+            "S": "Regional"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:15.171902Z"
+          },
+          "field": {
+            "S": "Mining"
+          },
+          "skills": {
+            "S": "Teamwork"
+          },
+          "title": {
+            "S": "Legal Coordinator"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "rFeFFDaarJ"
+          },
+          "id": {
+            "S": "oayaFaommn"
+          },
+          "seniority": {
+            "S": "National"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:52.298876Z"
+          },
+          "field": {
+            "S": "Accounting"
+          },
+          "skills": {
+            "S": "Teamwork"
+          },
+          "title": {
+            "S": "Construction Executive"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "ooorrDeoee"
+          },
+          "id": {
+            "S": "yaFFaDamra"
+          },
+          "seniority": {
+            "S": "Direct"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:20.307452Z"
+          },
+          "field": {
+            "S": "Construction"
+          },
+          "skills": {
+            "S": "Leadership"
+          },
+          "title": {
+            "S": "Central Marketing Liaison"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "aeaeaFyoaa"
+          },
+          "id": {
+            "S": "mkemFJaaJJ"
+          },
+          "seniority": {
+            "S": "Investor"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:32.557462Z"
+          },
+          "field": {
+            "S": "Manufacturing"
+          },
+          "skills": {
+            "S": "Communication"
+          },
+          "title": {
+            "S": "Consulting Associate"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "avJJDyDkma"
+          },
+          "id": {
+            "S": "naovvyveka"
+          },
+          "seniority": {
+            "S": "Central"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:18.396607Z"
+          },
+          "field": {
+            "S": "Community-Services"
+          },
+          "skills": {
+            "S": "Networking skills"
+          },
+          "title": {
+            "S": "IT Architect"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "kyeaomyano"
+          },
+          "id": {
+            "S": "avaFyFDyFy"
+          },
+          "seniority": {
+            "S": "Lead"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:53.211339Z"
+          },
+          "field": {
+            "S": "Mining"
+          },
+          "skills": {
+            "S": "Problem solving"
+          },
+          "title": {
+            "S": "Global Accounting Manager"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "aDaoaoaaoa"
+          },
+          "id": {
+            "S": "reyaooomDr"
+          },
+          "seniority": {
+            "S": "Direct"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:54.944795Z"
+          },
+          "field": {
+            "S": "Accounting"
+          },
+          "skills": {
+            "S": "Problem solving"
+          },
+          "title": {
+            "S": "Central Education Developer"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "aeaeaFyoaa"
+          },
+          "id": {
+            "S": "FamDoyavmr"
+          },
+          "seniority": {
+            "S": "International"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:32.761236Z"
+          },
+          "field": {
+            "S": "Accounting"
+          },
+          "skills": {
+            "S": "Confidence"
+          },
+          "title": {
+            "S": "Forward Marketing Manager"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "DaaemDyJre"
+          },
+          "id": {
+            "S": "yaoyermean"
+          },
+          "seniority": {
+            "S": "Corporate"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:41.737138Z"
+          },
+          "field": {
+            "S": "Real-Estate"
+          },
+          "skills": {
+            "S": "Confidence"
+          },
+          "title": {
+            "S": "International Marketing Facilitator"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "avaDaaJmma"
+          },
+          "id": {
+            "S": "yeaaoJynDF"
+          },
+          "seniority": {
+            "S": "Direct"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:14.466842Z"
+          },
+          "field": {
+            "S": "Manufacturing"
+          },
+          "skills": {
+            "S": "Teamwork"
+          },
+          "title": {
+            "S": "National Developer"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "kmDDDkvDmF"
+          },
+          "id": {
+            "S": "makknDJaay"
+          },
+          "seniority": {
+            "S": "Principal"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:31.028465Z"
+          },
+          "field": {
+            "S": "Construction"
+          },
+          "skills": {
+            "S": "Leadership"
+          },
+          "title": {
+            "S": "Legacy IT Agent"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "DaavDnyFao"
+          },
+          "id": {
+            "S": "FDkoFJoFFJ"
+          },
+          "seniority": {
+            "S": "Forward"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:26.626375Z"
+          },
+          "field": {
+            "S": "Sales"
+          },
+          "skills": {
+            "S": "Proactive"
+          },
+          "title": {
+            "S": "Government Assistant"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "companyId": {
+            "S": "nJaaDymynn"
+          },
+          "id": {
+            "S": "DDnvDmnyea"
+          },
+          "seniority": {
+            "S": "Central"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:16.984992Z"
+          },
+          "field": {
+            "S": "Accounting"
+          },
+          "skills": {
+            "S": "Self-motivated"
+          },
+          "title": {
+            "S": "Construction Assistant"
+          }
+        }
+      }
+    }
+  ]
+}
+

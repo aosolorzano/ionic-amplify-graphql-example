@@ -1,0 +1,653 @@
+{
+  "Company": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "DDooJFyaFv"
+          },
+          "locationId": {
+            "S": "bih"
+          },
+          "city": {
+            "S": "Kermitstad"
+          },
+          "industry": {
+            "S": "Cosmetics"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:05.738694Z"
+          },
+          "url": {
+            "S": "www.lemkegroup.org"
+          },
+          "name": {
+            "S": "McCullough-Denesik"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "DaaemDyJre"
+          },
+          "locationId": {
+            "S": "blr"
+          },
+          "city": {
+            "S": "New Felecia"
+          },
+          "industry": {
+            "S": "Restaurants"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:06.139158Z"
+          },
+          "url": {
+            "S": "www.sauer-schimmel.io"
+          },
+          "name": {
+            "S": "Schinner and Sons"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "aDynmDavva"
+          },
+          "locationId": {
+            "S": "lso"
+          },
+          "city": {
+            "S": "Skilestown"
+          },
+          "industry": {
+            "S": "Government Administration"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:01.284847Z"
+          },
+          "url": {
+            "S": "www.koss-nikolaus.info"
+          },
+          "name": {
+            "S": "Satterfield-Davis"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "ammDDaDnDD"
+          },
+          "locationId": {
+            "S": "srb"
+          },
+          "city": {
+            "S": "Gayleport"
+          },
+          "industry": {
+            "S": "Individual & Family Services"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:00.237565Z"
+          },
+          "url": {
+            "S": "www.gutkowskimacejkovicandhudson.org"
+          },
+          "name": {
+            "S": "Gottlieb-Reichert"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "DmDaFFmJma"
+          },
+          "locationId": {
+            "S": "yem"
+          },
+          "city": {
+            "S": "Lake Ruben"
+          },
+          "industry": {
+            "S": "Writing and Editing"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:03.009107Z"
+          },
+          "url": {
+            "S": "www.littlegorczanyandosinski.co"
+          },
+          "name": {
+            "S": "Cole-Will"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "aekDFavmJa"
+          },
+          "locationId": {
+            "S": "aut"
+          },
+          "city": {
+            "S": "Carmenborough"
+          },
+          "industry": {
+            "S": "Farming"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:07.743177Z"
+          },
+          "url": {
+            "S": "www.lehnerhoppeandankunding.name"
+          },
+          "name": {
+            "S": "Cummerata LLC"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "oJaDmmJeoa"
+          },
+          "locationId": {
+            "S": "brb"
+          },
+          "city": {
+            "S": "Isaiaschester"
+          },
+          "industry": {
+            "S": "Graphic Design"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:09.640697Z"
+          },
+          "url": {
+            "S": "www.sauerkubandjast.com"
+          },
+          "name": {
+            "S": "Wisozk-Kub"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "JkmorFaDnv"
+          },
+          "locationId": {
+            "S": "lso"
+          },
+          "city": {
+            "S": "South Cameronberg"
+          },
+          "industry": {
+            "S": "Furniture"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:00.880548Z"
+          },
+          "url": {
+            "S": "www.kassulke-kihn.biz"
+          },
+          "name": {
+            "S": "Pouros Inc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "kDDaFFvrDn"
+          },
+          "locationId": {
+            "S": "bih"
+          },
+          "city": {
+            "S": "West Mardell"
+          },
+          "industry": {
+            "S": "Furniture"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:05.133403Z"
+          },
+          "url": {
+            "S": "www.watersgroup.name"
+          },
+          "name": {
+            "S": "Wisozk-Roob"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "rFeFFDaarJ"
+          },
+          "locationId": {
+            "S": "bhr"
+          },
+          "city": {
+            "S": "Port Heribertomouth"
+          },
+          "industry": {
+            "S": "Market Research"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:08.140138Z"
+          },
+          "url": {
+            "S": "www.lehner-haag.io"
+          },
+          "name": {
+            "S": "Wisozk, Turner and Gleason"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "eaDaeonmoD"
+          },
+          "locationId": {
+            "S": "brb"
+          },
+          "city": {
+            "S": "Rodriguezburgh"
+          },
+          "industry": {
+            "S": "Investment Management"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:09.739936Z"
+          },
+          "url": {
+            "S": "www.parisianllc.biz"
+          },
+          "name": {
+            "S": "Hansen and Sons"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "kyeaomyano"
+          },
+          "locationId": {
+            "S": "bhr"
+          },
+          "city": {
+            "S": "Lake Rhiannonport"
+          },
+          "industry": {
+            "S": "Computer Games"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:08.339212Z"
+          },
+          "url": {
+            "S": "www.gutkowskigroup.org"
+          },
+          "name": {
+            "S": "Cole-Mosciski"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "JkJDDmnrer"
+          },
+          "locationId": {
+            "S": "aut"
+          },
+          "city": {
+            "S": "North Morgan"
+          },
+          "industry": {
+            "S": "Fine Art"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:06.943003Z"
+          },
+          "url": {
+            "S": "www.klockoandsons.biz"
+          },
+          "name": {
+            "S": "Jerde-Jast"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "JkyvvrrvDF"
+          },
+          "locationId": {
+            "S": "blr"
+          },
+          "city": {
+            "S": "Lettieborough"
+          },
+          "industry": {
+            "S": "Wholesale"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:06.039711Z"
+          },
+          "url": {
+            "S": "www.friesen-rippin.com"
+          },
+          "name": {
+            "S": "Bayer, Gutmann and Borer"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "FrmJemFavy"
+          },
+          "locationId": {
+            "S": "brb"
+          },
+          "city": {
+            "S": "Moenville"
+          },
+          "industry": {
+            "S": "Alternative Medicine"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:09.043723Z"
+          },
+          "url": {
+            "S": "www.oharagreenfelderandauer.org"
+          },
+          "name": {
+            "S": "Bednar Inc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "avaDaaJmma"
+          },
+          "locationId": {
+            "S": "srb"
+          },
+          "city": {
+            "S": "Sindyfurt"
+          },
+          "industry": {
+            "S": "Mechanical or Industrial Engineering"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:00.642017Z"
+          },
+          "url": {
+            "S": "www.koelpinpredovicandschamberger.net"
+          },
+          "name": {
+            "S": "Kemmer LLC"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "eDeevykaFF"
+          },
+          "locationId": {
+            "S": "aut"
+          },
+          "city": {
+            "S": "Lake Jovan"
+          },
+          "industry": {
+            "S": "Events Services"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:07.342939Z"
+          },
+          "url": {
+            "S": "www.bernhardstokesandkunze.name"
+          },
+          "name": {
+            "S": "Macejkovic, Ferry and Hegmann"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "DDDarmJoDn"
+          },
+          "locationId": {
+            "S": "mys"
+          },
+          "city": {
+            "S": "East Coreenview"
+          },
+          "industry": {
+            "S": "Investment Banking"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:02.602177Z"
+          },
+          "url": {
+            "S": "www.hoppeandsons.io"
+          },
+          "name": {
+            "S": "Lehner-Armstrong"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "aDeeeaomrk"
+          },
+          "locationId": {
+            "S": "bih"
+          },
+          "city": {
+            "S": "Santiagoside"
+          },
+          "industry": {
+            "S": "Primary / Secondary Education"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:05.538568Z"
+          },
+          "url": {
+            "S": "www.bodegroup.com"
+          },
+          "name": {
+            "S": "Schmitt and Sons"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "rmaFryoyoo"
+          },
+          "locationId": {
+            "S": "yem"
+          },
+          "city": {
+            "S": "Ludivinastad"
+          },
+          "industry": {
+            "S": "Publishing"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:03.311988Z"
+          },
+          "url": {
+            "S": "www.keebler-cremin.net"
+          },
+          "name": {
+            "S": "Ward, Kub and Walsh"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "DaavDnyFao"
+          },
+          "locationId": {
+            "S": "yem"
+          },
+          "city": {
+            "S": "South Vella"
+          },
+          "industry": {
+            "S": "Tobacco"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:03.109581Z"
+          },
+          "url": {
+            "S": "www.kochllc.net"
+          },
+          "name": {
+            "S": "Cremin-Carroll"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "DonFaoaFea"
+          },
+          "locationId": {
+            "S": "tcd"
+          },
+          "city": {
+            "S": "Lake Morgan"
+          },
+          "industry": {
+            "S": "Capital Markets"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:04.728243Z"
+          },
+          "url": {
+            "S": "www.dickens-prohaska.co"
+          },
+          "name": {
+            "S": "Marquardt Inc"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "aDkDaaaDDa"
+          },
+          "locationId": {
+            "S": "bih"
+          },
+          "city": {
+            "S": "East Damion"
+          },
+          "industry": {
+            "S": "Security and Investigations"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:05.234345Z"
+          },
+          "url": {
+            "S": "www.grant-kunze.com"
+          },
+          "name": {
+            "S": "Barton-Orn"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "DvanaJeFDv"
+          },
+          "locationId": {
+            "S": "bhr"
+          },
+          "city": {
+            "S": "Claudineview"
+          },
+          "industry": {
+            "S": "Environmental Services"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:41:08.239683Z"
+          },
+          "url": {
+            "S": "www.reichelgroup.io"
+          },
+          "name": {
+            "S": "Kovacek-Wilkinson"
+          }
+        }
+      }
+    }
+  ]
+}
+

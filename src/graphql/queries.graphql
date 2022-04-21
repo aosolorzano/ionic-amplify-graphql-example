@@ -1,0 +1,200 @@
+# this is an auto generated file. This will be overwritten
+query GetLocation($id: ID!, $country: ID!) {
+  getLocation(id: $id, country: $country) {
+    id
+    country
+    flagImageUrl
+  }
+}
+query ListLocations(
+  $id: ID
+  $country: ModelIDKeyConditionInput
+  $filter: ModelLocationFilterInput
+  $limit: Int
+  $nextToken: String
+  $sortDirection: ModelSortDirection
+) {
+  listLocations(
+    id: $id
+    country: $country
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    sortDirection: $sortDirection
+  ) {
+    items {
+      id
+      country
+      flagImageUrl
+    }
+    nextToken
+  }
+}
+query GetCompany($id: ID!, $locationId: ID!) {
+  getCompany(id: $id, locationId: $locationId) {
+    id
+    locationId
+    city
+    name
+    industry
+    url
+    location {
+      id
+      country
+      flagImageUrl
+    }
+  }
+}
+query ListCompanies(
+  $id: ID
+  $locationId: ModelIDKeyConditionInput
+  $filter: ModelCompanyFilterInput
+  $limit: Int
+  $nextToken: String
+  $sortDirection: ModelSortDirection
+) {
+  listCompanies(
+    id: $id
+    locationId: $locationId
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    sortDirection: $sortDirection
+  ) {
+    items {
+      id
+      locationId
+      city
+      name
+      industry
+      url
+      location {
+        id
+        country
+        flagImageUrl
+      }
+    }
+    nextToken
+  }
+}
+query GetOpenPosition($id: ID!, $companyId: ID!) {
+  getOpenPosition(id: $id, companyId: $companyId) {
+    id
+    companyId
+    title
+    seniority
+    field
+    skills
+    company {
+      id
+      locationId
+      city
+      name
+      industry
+      url
+      location {
+        id
+        country
+        flagImageUrl
+      }
+    }
+  }
+}
+query ListOpenPositions(
+  $id: ID
+  $companyId: ModelIDKeyConditionInput
+  $filter: ModelOpenPositionFilterInput
+  $limit: Int
+  $nextToken: String
+  $sortDirection: ModelSortDirection
+) {
+  listOpenPositions(
+    id: $id
+    companyId: $companyId
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    sortDirection: $sortDirection
+  ) {
+    items {
+      id
+      companyId
+      title
+      seniority
+      field
+      skills
+      company {
+        id
+        locationId
+        city
+        name
+        industry
+        url
+      }
+    }
+    nextToken
+  }
+}
+query GetCompaniesByLocationId(
+  $locationId: ID!
+  $sortDirection: ModelSortDirection
+  $filter: ModelCompanyFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  getCompaniesByLocationId(
+    locationId: $locationId
+    sortDirection: $sortDirection
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+  ) {
+    items {
+      id
+      locationId
+      city
+      name
+      industry
+      url
+      location {
+        id
+        country
+        flagImageUrl
+      }
+    }
+    nextToken
+  }
+}
+query GetOpenPositionsByCompanyId(
+  $companyId: ID!
+  $sortDirection: ModelSortDirection
+  $filter: ModelOpenPositionFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  getOpenPositionsByCompanyId(
+    companyId: $companyId
+    sortDirection: $sortDirection
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+  ) {
+    items {
+      id
+      companyId
+      title
+      seniority
+      field
+      skills
+      company {
+        id
+        locationId
+        city
+        name
+        industry
+        url
+      }
+    }
+    nextToken
+  }
+}

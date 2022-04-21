@@ -1,0 +1,185 @@
+{
+  "Location": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "lso"
+          },
+          "country": {
+            "S": "Japan"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/jp.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:58.841007Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "bhr"
+          },
+          "country": {
+            "S": "Qatar"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/qa.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:59.140718Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "tcd"
+          },
+          "country": {
+            "S": "Ecuador"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/ec.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:59.340856Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "yem"
+          },
+          "country": {
+            "S": "New Zealand"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/nz.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:58.624535Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "mys"
+          },
+          "country": {
+            "S": "Norway"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/no.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:59.240632Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "bih"
+          },
+          "country": {
+            "S": "Singapore"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/sg.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:59.539535Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "aut"
+          },
+          "country": {
+            "S": "Spain"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/es.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:58.740950Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "srb"
+          },
+          "country": {
+            "S": "United Arab Emirates"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/ae.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:59.439914Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "blr"
+          },
+          "country": {
+            "S": "Costa Rica"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/cr.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:59.039945Z"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "brb"
+          },
+          "country": {
+            "S": "Sweden"
+          },
+          "flagImageUrl": {
+            "S": "https://flagcdn.com/h80/se.png"
+          },
+          "createdAt": {
+            "S": "2022-04-20T12:40:58.940176Z"
+          }
+        }
+      }
+    }
+  ]
+}
+
