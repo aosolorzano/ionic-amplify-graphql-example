@@ -7,6 +7,7 @@ import {APIService, Company} from '../graphql/API.service';
 })
 export class CompaniesService {
 
+  private nextToken: string = null;
   private logger = new Logger('CompaniesService');
 
   constructor(private api: APIService) {
@@ -15,8 +16,8 @@ export class CompaniesService {
   public async getCompaniesByLocationId(locationId: string): Promise<Array<Company>> {
     this.logger.debug('getCompaniesByLocationId() - START: ', locationId);
     const result: Array<Company> = [];
-    await this.api.GetCompaniesByLocationId(locationId).then(async data => {
-      for (const item of data.items) {
+    await this.api.GetCompaniesByLocationId(locationId).then(async response => {
+      for (const item of response.items) {
         result.push(item);
       }
     });
@@ -24,15 +25,21 @@ export class CompaniesService {
     return result;
   }
 
-  public async getAllCompanies(): Promise<Array<Company>>  {
-    this.logger.debug('getAllCompanies() - START');
+  public async getCompanies(): Promise<Array<Company>> {
+    this.logger.debug('getCompanies() - START');
     const result: Array<Company> = [];
-    await this.api.ListCompanies().then(async data => {
-      for (const item of data.items) {
-        result.push(item);
-      }
-    });
-    this.logger.debug('getAllCompanies() - END');
+    await this.api.ListCompanies(null, null, null, null, this.nextToken, null)
+      .then(async response => {
+        for (const item of response.items) {
+          result.push(item);
+        }
+        this.nextToken = response.nextToken ? response.nextToken : null;
+      });
+    this.logger.debug('getCompanies() - END');
     return result;
+  }
+
+  public isMoreDataToRetrieve(): boolean {
+    return this.nextToken ? true : false;
   }
 }

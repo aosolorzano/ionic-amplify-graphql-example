@@ -28,9 +28,8 @@ export class CompaniesPage implements OnInit {
     if (this.locationId) {
       this.companies = await this.companiesService.getCompaniesByLocationId(this.locationId);
     } else {
-      this.companies = await this.companiesService.getAllCompanies();
+      this.companies = await this.companiesService.getCompanies();
     }
-    this.logger.debug('Companies found: ', this.companies);
   }
 
   public async loadOpenPositions(companyId: string) {
@@ -50,5 +49,17 @@ export class CompaniesPage implements OnInit {
       buttons: ['OK']
     });
     await alert.present();
+  }
+
+  public async loadMoreData(event: any) {
+    // Determine if all data is loaded and disable the infinite scroll.
+    if (this.companiesService.isMoreDataToRetrieve()) {
+      this.logger.debug('Adding more items...');
+      const newData: Array<Company> = await this.companiesService.getCompanies();
+      this.companies.push(...newData);
+      event.target.complete();
+    } else {
+      event.target.disabled = true;
+    }
   }
 }
