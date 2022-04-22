@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Company} from '../../services/graphql/API.service';
 import {Logger} from 'aws-amplify';
 import {ActivatedRoute, Router} from '@angular/router';
@@ -14,6 +14,7 @@ export class CompaniesPage implements OnInit {
 
   public locationId: string;
   public companies: Company[];
+  public searchText: string;
   private logger = new Logger('CompaniesPage');
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute,
@@ -27,13 +28,17 @@ export class CompaniesPage implements OnInit {
     if (this.locationId) {
       this.companies = await this.companiesService.getCompaniesByLocationId(this.locationId);
     } else {
-      this.companies = new Array();
+      this.companies = await this.companiesService.getAllCompanies();
     }
     this.logger.debug('Companies found: ', this.companies);
   }
 
   public async loadOpenPositions(companyId: string) {
     await this.router.navigate(['/app/pages/vacancies/'.concat(companyId)]);
+  }
+
+  public onChange(event: any) {
+    this.searchText = event.detail.value;
   }
 
   public async showDetails(company: Company) {

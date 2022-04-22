@@ -4,13 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { CompaniesPageRoutingModule } from './companies-routing.module';
 import { CompaniesPage } from './companies.page';
+import {PipesModule} from '../../pipes/pipes.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CompaniesPageRoutingModule
+    CompaniesPageRoutingModule,
+    PipesModule
   ],
   declarations: [CompaniesPage]
 })

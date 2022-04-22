@@ -23,4 +23,16 @@ export class CompaniesService {
     this.logger.debug('getCompaniesByLocationId() - END');
     return result;
   }
+
+  public async getAllCompanies(): Promise<Array<Company>>  {
+    this.logger.debug('getAllCompanies() - START');
+    const result: Array<Company> = [];
+    await this.api.ListCompanies().then(async data => {
+      for (const item of data.items) {
+        result.push(item);
+      }
+    });
+    this.logger.debug('getAllCompanies() - END');
+    return result;
+  }
 }

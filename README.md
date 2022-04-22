@@ -3,7 +3,7 @@ This project uses Amplify Framework to add an API to interact with AWS GraphQL a
 
 ## Detailed components' creation/modification
 You can find more detail of the configurations and components coded in this project in the following post:
-[Integrate AWS GraphQL in your Ionic/Angular applications using Amplify.](https://aosolorzano.medium.com/adding-amplify-auth-to-your-ionic-angular-projects-4c8b6337e4e6)
+[Integrate AWS GraphQL in your Ionic/Angular applications using Amplify.](https://aosolorzano.medium.com/integrate-aws-graphql-in-your-ionic-angular-applications-using-amplify-fe4678c2060a)
 
 ## Requirements
 1. An AWS account.

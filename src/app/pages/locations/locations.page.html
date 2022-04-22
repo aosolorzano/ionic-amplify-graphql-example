@@ -8,17 +8,6 @@
 </ion-header>
 
 <ion-content fullscreen="true" class="ion-padding">
-  <ion-list *ngIf="!locations">
-    <ion-item *ngFor="let hero of [1,1,1,1,1,1,1,1,1,1]">
-      <ion-avatar slot="start">
-        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" alt="Country Flag">
-      </ion-avatar>
-      <ion-label>
-        <ion-skeleton-text animated="true" style="width: 70%"></ion-skeleton-text>
-      </ion-label>
-    </ion-item>
-  </ion-list>
-
   <ion-list>
     <ion-item *ngFor="let location of locations"
               (click)="loadCompanies(location.id)"
@@ -28,6 +17,17 @@
         <ion-img [src]="location.flagImageUrl" alt="Country Flag"></ion-img>
       </ion-avatar>
       <ion-label>{{ location.country }}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-list *ngIf="!locations">
+    <ion-item *ngFor="let hero of [1,1,1,1,1,1,1,1,1,1]">
+      <ion-avatar slot="start">
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" alt="Country Flag">
+      </ion-avatar>
+      <ion-label>
+        <ion-skeleton-text animated="true" style="width: 70%"></ion-skeleton-text>
+      </ion-label>
     </ion-item>
   </ion-list>
 </ion-content>
